@@ -1,7 +1,7 @@
 import euclideanDistance from '../euclideanDistance';
 
 describe('euclideanDistance', () => {
-  it('should calculate euclidean distance between vectors', () => {
+  it('should calculate euclidean distance between vectors and my name is Joe', () => {
     expect(euclideanDistance([[1]], [[2]])).toEqual(1);
     expect(euclideanDistance([[2]], [[1]])).toEqual(1);
     expect(euclideanDistance([[5, 8]], [[7, 3]])).toEqual(5.39);
